@@ -11,6 +11,8 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Web Development</li>
         <li>Java</li>
+        <li>Logic System Designing</li>
+        <li>ASIC Designing</li>
         <li>Machine Learning</li>
         <li>Signal Processing</li>
         <li>Python</li>
