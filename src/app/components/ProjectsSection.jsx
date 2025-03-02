@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Kanban Board",
-    description: "Created a weather app using HTML, CSS, and JavaScript that allows users to enter a city name and view its current weather conditions. The app should fetch data from a weather API and display the temperature, weather description, and an appropriate weather icon.",
+    description: "A visually interactive Kanban board that helps users organize, prioritize, and track tasks efficiently. It features drag-and-drop functionality for easy task management, real-time updates for instant changes, and a responsive UI that adapts across devices, ensuring a seamless user experience.",
     image: "/images/projects/Kanban.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Shrishant2325/KanbanBoard",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Movie Land",
-    description: "Created a weather app using HTML, CSS, and JavaScript that allows users to enter a city name and view its current weather conditions. The app should fetch data from a weather API and display the temperature, weather description, and an appropriate weather icon.",
+    description: "A sleek and user-friendly movie search application that allows users to discover movies using real-time API integration. Features a responsive UI, dynamic search functionality, and interactive movie details, providing an engaging browsing experience.",
     image: "/images/projects/MovieLand.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Shrishant2325/Weather-App",
