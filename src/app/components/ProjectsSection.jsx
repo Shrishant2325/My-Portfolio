@@ -20,8 +20,8 @@ const projectsData = [
     description: "A sleek and user-friendly movie search application that allows users to discover movies using real-time API integration. Features a responsive UI, dynamic search functionality, and interactive movie details, providing an engaging browsing experience.",
     image: "/images/projects/MovieLand.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Shrishant2325/Weather-App",
-    previewUrl: "https://weather-app-delta-five-84.vercel.app/",
+    gitUrl: "https://github.com/Shrishant2325/MovieLand",
+    previewUrl: "https://movie-land-nine-beige.vercel.app/",
   },
   {
     id: 3,
