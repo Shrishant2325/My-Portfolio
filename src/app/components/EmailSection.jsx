@@ -13,15 +13,14 @@ const EmailSection = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_ejl6rht",         // your service ID
-        "template_o22z785",        // your template ID
-        form.current,
-        {
-          publicKey: "MfwYy5DQoWHF5Ycu8", // your public key
-        }
-      )
+    emailjs.sendForm(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+      form.current,
+      {
+        publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+      }
+    )
       .then(
         () => {
           console.log("SUCCESS!");
