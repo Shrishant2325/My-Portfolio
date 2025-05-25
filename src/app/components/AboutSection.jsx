@@ -10,8 +10,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Full-Stack Web Development</li>
-        <li>Database (SQL & NoSQL)</li>
-        <li>System Design & SDLC (Agile/Scrum)</li>
+        <li>Database (SQL/NoSQL)</li>
+        <li>System Design, SDLC (Agile/Scrum)</li>
         <li>Cloud Computing (AWS – foundational)</li>
         <li>Financial Analysis & Risk Management</li>
         <li>ASIC Designing</li>
@@ -36,9 +36,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li><link href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"></link>AWS Cloud Practitioner</li>
-        <li><link href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"></link>AWS Solution Architect</li>
-        <li><link href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/nkmk7gJitYs4TBvoA/AQKJ8jdotFCzz5WmM_nkmk7gJitYs4TBvoA_vQJQgcHb7H2J7RAwK_1739250813038_completion_certificate.pdf"></link>Wells Fargo - Commercial Banking Analysis</li>
+        <li><a href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"></a>AWS Cloud Practitioner</li>
+        <li><a href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"></a>AWS Solution Architect</li>
+        <li><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/nkmk7gJitYs4TBvoA/AQKJ8jdotFCzz5WmM_nkmk7gJitYs4TBvoA_vQJQgcHb7H2J7RAwK_1739250813038_completion_certificate.pdf"></a>Wells Fargo - Commercial Banking Analysis</li>
       </ul>
     ),
   },
@@ -57,11 +57,11 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.png" width={500} height={500} alt="" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I'm a full-stack developer and an electronics engineer skilled in building responsive, scalable web solutions. Experienced with HTML5, CSS3, JavaScript, React, Node.js, Python, Java, MATLAB, Git, and cloud fundamentals, along with MySQL, MongoDB, Next.js, and Express.js. I bring a strong foundation in system design, data analysis, and financial insight, with a commitment to continuous growth.
+            I&rsquo;m a full-stack developer and an electronics engineer skilled in building responsive, scalable web solutions. Experienced with HTML5, CSS3, JavaScript, React, Node.js, Python, Java, MATLAB, Git, and cloud fundamentals, along with MySQL, MongoDB, Next.js, and Express.js. I bring a strong foundation in system design, data analysis, and financial insight, with a commitment to continuous growth.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
