@@ -9,9 +9,11 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Web Development</li>
-        <li>Java</li>
-        <li>Logic System Designing</li>
+        <li>Full-Stack Web Development</li>
+        <li>Database (SQL & NoSQL)</li>
+        <li>System Design & SDLC (Agile/Scrum)</li>
+        <li>Cloud Computing (AWS – foundational)</li>
+        <li>Financial Analysis & Risk Management</li>
         <li>ASIC Designing</li>
         <li>Machine Learning</li>
         <li>Signal Processing</li>
@@ -35,8 +37,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li><link href="/"></link>AWS Cloud Practitioner</li>
-        <li>AWS Solution Architect</li>
+        <li><link href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"></link>AWS Cloud Practitioner</li>
+        <li><link href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"></link>AWS Solution Architect</li>
+        <li><link href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/nkmk7gJitYs4TBvoA/AQKJ8jdotFCzz5WmM_nkmk7gJitYs4TBvoA_vQJQgcHb7H2J7RAwK_1739250813038_completion_certificate.pdf"></link>Wells Fargo - Commercial Banking Analysis</li>
       </ul>
     ),
   },
@@ -59,11 +62,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a B.tech student and a web developer with a passion for creating
-            responsive web pages. I have experience working with
-            HTML5, CC3, JavaScript, React, Node.js, JAVA, Python, R, MATLAB and
-            Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set.
+            Full-stack MERN architect driving innovation where cloud computing, finance, and engineering converge. I build scalable, high-performance solutions rooted in sharp financial analysis and robust system design — all powered by an agile mindset and a passion for elegant, user-first experiences.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
