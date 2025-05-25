@@ -62,7 +62,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Full-stack MERN architect driving innovation where cloud computing, finance, and engineering converge. I build scalable, high-performance solutions rooted in sharp financial analysis and robust system design — all powered by an agile mindset and a passion for elegant, user-first experiences.
+            I am a B.tech student and a web developer with a passion for creating
+            responsive web pages. I have experience working with
+            HTML5, CC3, JavaScript, React, Node.js, JAVA, Python, R, MATLAB and
+            Git. I am a quick learner and I am always
+            looking to expand my knowledge and skill set.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
