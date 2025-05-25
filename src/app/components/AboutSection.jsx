@@ -62,11 +62,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a B.tech student and a web developer with a passion for creating
-            responsive web pages. I have experience working with
-            HTML5, CC3, JavaScript, React, Node.js, JAVA, Python, R, MATLAB and
-            Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set.
+            I'm a full-stack developer and an electronics engineer skilled in building responsive, scalable web solutions. Experienced with HTML5, CSS3, JavaScript, React, Node.js, Python, Java, MATLAB, Git, and cloud fundamentals, along with MySQL, MongoDB, Next.js, and Express.js. I bring a strong foundation in system design, data analysis, and financial insight, with a commitment to continuous growth.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
