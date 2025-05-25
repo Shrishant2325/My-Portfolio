@@ -37,8 +37,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          your friendly neighbor who likes to craft digital experiences with 
-          <br></br>a sprinkle of logic and a dash of creativity.
+          Your friendly neighborhood coder mixing MERN magic, cloud tricks 
+          <br></br>and finance flair — whipping up clever digital vibes
+          <br></br>with a dash of logic and a whole lot of creativity.
           </p>
           <div>
             <Link
