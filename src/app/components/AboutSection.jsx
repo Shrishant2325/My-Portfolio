@@ -17,7 +17,6 @@ const TAB_DATA = [
         <li>ASIC Designing</li>
         <li>Machine Learning</li>
         <li>Signal Processing</li>
-        <li>Python</li>
       </ul>
     ),
   },
