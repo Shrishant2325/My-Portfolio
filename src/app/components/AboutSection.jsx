@@ -14,9 +14,8 @@ const TAB_DATA = [
         <li>System Design, SDLC (Agile/Scrum)</li>
         <li>Cloud Computing (AWS – foundational)</li>
         <li>Financial Analysis & Risk Management</li>
-        <li>ASIC Designing</li>
         <li>Machine Learning</li>
-        <li>Signal Processing</li>
+        <li>ASIC Designing/Signal Processing</li>
       </ul>
     ),
   },
@@ -36,9 +35,33 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li><a href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"></a>AWS Cloud Practitioner</li>
-        <li><a href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"></a>AWS Solution Architect</li>
-        <li><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/nkmk7gJitYs4TBvoA/AQKJ8jdotFCzz5WmM_nkmk7gJitYs4TBvoA_vQJQgcHb7H2J7RAwK_1739250813038_completion_certificate.pdf"></a>Wells Fargo - Commercial Banking Analysis</li>
+        <li>
+          <a
+            href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            AWS Cloud Practitioner
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            AWS Solution Architect
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/nkmk7gJitYs4TBvoA/AQKJ8jdotFCzz5WmM_nkmk7gJitYs4TBvoA_vQJQgcHb7H2J7RAwK_1739250813038_completion_certificate.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Wells Fargo - Commercial Banking Analysis
+          </a>
+        </li>
       </ul>
     ),
   },
