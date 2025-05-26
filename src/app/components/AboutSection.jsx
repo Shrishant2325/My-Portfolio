@@ -13,7 +13,7 @@ const TAB_DATA = [
         <li>Database (SQL/NoSQL)</li>
         <li>System Design, SDLC (Agile/Scrum)</li>
         <li>Cloud Computing (AWS – foundational)</li>
-        <li>Financial Analysis & Risk Management</li>
+        <li>Financial Analysis/Risk Management</li>
         <li>Machine Learning</li>
         <li>ASIC Designing/Signal Processing</li>
       </ul>
