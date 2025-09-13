@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Nomad-Wayfare",
+    description: "Developed a full-stack luxury car rental platform enabling users to book vehicles with date-based availability tracking. Designed an owner portal to list cars, manage rentals, and track earnings. Implemented a dual-sided system ensuring seamless interaction between renters and owners.",
+    image: "/images/projects/Nomad-Wayfare.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/Shrishant2325/Nomad-Wayfare",
+    previewUrl: "https://nomad-wayfare.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Kanban Board",
     description: "A visually interactive Kanban board that helps users organize, prioritize, and track tasks efficiently. It features drag-and-drop functionality for easy task management, real-time updates for instant changes, and a responsive UI that adapts across devices, ensuring a seamless user experience.",
     image: "/images/projects/Kanban.png",
@@ -15,7 +24,7 @@ const projectsData = [
     previewUrl: "https://kanban-board-quicksell-five.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Movie Land",
     description: "A sleek and user-friendly movie search application that allows users to discover movies using real-time API integration. Features a responsive UI, dynamic search functionality, and interactive movie details, providing an engaging browsing experience.",
     image: "/images/projects/MovieLand.png",
@@ -24,7 +33,7 @@ const projectsData = [
     previewUrl: "https://movie-land-nine-beige.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Weather App",
     description: "Created a weather app using HTML, CSS, and JavaScript that allows users to enter a city name and view its current weather conditions. The app should fetch data from a weather API and display the temperature, weather description, and an appropriate weather icon.",
     image: "/images/projects/Weather.png",
@@ -33,16 +42,16 @@ const projectsData = [
     previewUrl: "https://weather-app-delta-five-84.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Quiz App",
     description: "Developed a quiz application using HTML, CSS, and JavaScript where users can answer multiple-choice questions within a set time limit. The app should display questions sequentially, provide feedback on correct or incorrect answers, and show the final score at the end.",
     image: "/images/projects/Quiz.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/Shrishant2325/Quizz-App",
     previewUrl: "https://quiz-app-kappa-hazel.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "E-commerce Application",
     description: "Built an e-commerce website using HTML, CSS, and JavaScript that allows users to browse products, add them to a cart, and proceed to checkout. The website should feature product categories, a search function, a cart summary, and a responsive design for optimal viewing across devices.",
     image: "/images/projects/E-Commerce.png",
@@ -51,16 +60,16 @@ const projectsData = [
     previewUrl: "https://e-commerce-three-brown.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Food Ordering Application",
     description: "Create an online food ordering app using HTML, CSS, and JavaScript, allowing users to browse restaurants, select dishes, customize orders, and proceed to checkout.",
     image: "/images/projects/Food-Delivery.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Mobile", "Web"],
     gitUrl: "https://github.com/Shrishant2325/Myonlinemeal",
     previewUrl: "https://myonlinemeal-chi.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Gym Form App",
     description: "Developed an online GYM application crafted with HTML, CSS, and JavaScript, offering a responsive interface with interactive features like dynamic navigation, form submission, and engaging button animations for a seamless user experience.",
     image: "/images/projects/Gym.png",
@@ -69,7 +78,6 @@ const projectsData = [
     previewUrl: "https://gym-app-bay-tau.vercel.app/",
   },
 ];
-
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
@@ -135,3 +143,4 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
+
