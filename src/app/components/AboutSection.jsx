@@ -9,13 +9,14 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Full-Stack Web Development</li>
-        <li>Database (SQL/NoSQL)</li>
-        <li>System Design, SDLC (Agile/Scrum)</li>
-        <li>Cloud Computing (AWS – foundational)</li>
-        <li>Financial Analysis/Risk Management</li>
-        <li>Machine Learning</li>
-        <li>ASIC Designing/Signal Processing</li>
+        <li>Full-Stack Development (ReactJS, NextJS, NodeJS, Spring Boot)</li>
+        <li>Database Management (SQL & NoSQL: MySQL, MongoDB, PostgreSQL)</li>
+        <li>System Design & SDLC (Agile/Scrum)</li>
+        <li>Cloud Fundamentals: AWS</li>
+        <li>Data Analysis & Risk Management</li>
+        <li>Machine Learning & AI Basics</li>
+        <li>ASIC / Electrical System Design, Signal Processing</li>
+        <li>DevOps & Tools (Docker, Kubernetes, CI/CD, Git)</li>
       </ul>
     ),
   },
@@ -41,7 +42,7 @@ const TAB_DATA = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            AWS Cloud Practitioner
+            AWS Certified Cloud Practitioner
           </a>
         </li>
         <li>
@@ -50,7 +51,7 @@ const TAB_DATA = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            AWS Solution Architect
+            AWS Certified Solutions Architect
           </a>
         </li>
         <li>
@@ -84,8 +85,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&rsquo;m a full-stack developer and an electronics engineer skilled in building responsive, scalable web solutions. Experienced with HTML5, CSS3, JavaScript, React, Node.js, Python, Java, MATLAB, Git, and cloud fundamentals, along with MySQL, MongoDB, Next.js, and Express.js. I bring a strong foundation in system design, data analysis, and financial insight, with a commitment to continuous growth.
-          </p>
+            I’m an engineer with expertise across full-stack development, electronics, and data-driven solutions. I build scalable applications, analyze complex data, and design intelligent systems using technologies like Python, Java, MATLAB, React, Node.js, and databases such as MySQL and MongoDB, while applying system design, DevOps practices, and cloud fundamentals. I combine analytical insight, financial understanding, and emerging technologies like AI and machine learning to create impactful solutions across software, business, and electronics domains.          </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
@@ -119,3 +119,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
