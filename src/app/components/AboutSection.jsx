@@ -38,7 +38,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>
           <a
-            href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zxTYvk-gDNB7zfArurklRge8OTepZLyy/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -47,11 +47,20 @@ const TAB_DATA = [
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1_kVRJjFG91iKjfNdtmum7UYB20uWUvc-/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zxTYvk-gDNB7zfArurklRge8OTepZLyy/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
             AWS Certified Solutions Architect
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=7C9DEEF1D9404388FBE641DDABA2C81B6586847E298A4A59EF38D6077F96CF3A"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Oracle Cloud Infrastructure (OCI) DevOps Professional
           </a>
         </li>
         <li>
